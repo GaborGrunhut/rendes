@@ -1,0 +1,22 @@
+nav ul {
+    list-style-type: none;  /* nem lista formában kerülnek kiíratásra a táblázat elemei*/
+    text-align: center;     /* a menüpontok középre helyezése. */
+}
+
+nav ul li {
+    display: inline-block;
+    /* float: left; */
+    margin-left: -4px;      /* menüpontok közt az extra margó kivétele. */
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover {         /* egérrel a menüpont felé megyünk: színek változása.*/
+    background-color: brown;
+    color: white;
+}
